@@ -1,0 +1,225 @@
+/* Resetar margenes*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Globales*/
+
+html {
+    scroll-snap-type: y;
+}
+
+/* Scroll Snap*/
+
+.seccion1 .seccion2 .seccion3 .seccion4 .seccion5 {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header,
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+/*Navegador*/
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+/* Logo */
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* header */
+
+.header {
+    height: 60vh !important;
+    background: url(/img/header.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Titulos*/
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Pacifico", cursive;
+    color: #fff;
+}
+
+/* Parrafos*/
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+/* botones */
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background-color: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+
+}
+
+/* Contenido */
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Productos */
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgb(0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+    font-family: "Pacifico", cursive;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+/* Nosotros */
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(/img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+/* Contacto*/
+
+.contact {
+    padding-top: 20px;
+    background-color: #171717;
+    padding-top: 0;
+}
+
+@media(max-width: 768px) {
+
+    .titile {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+}

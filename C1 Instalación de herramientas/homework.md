@@ -14,6 +14,8 @@ Recuerda que debes descargar la versión **LTS** de Node.JS, ya que la versión 
 
 [**LINK DE DESCARGA**](https://nodejs.org/es/)
 
+Ya se descargo
+
 ---
 
 </br >
@@ -23,6 +25,8 @@ Recuerda que debes descargar la versión **LTS** de Node.JS, ya que la versión 
 Recuerda que si tu sistema operativo en **Linux** ya tienes GIT instalado por defecto. Si tu sistema operativo es **Windows** puedes descargarlo en el siguiente link:
 
 [**LINK DE DESCARGA**](https://gitforwindows.org/)
+
+Ya se descargo
 
 ---
 
@@ -34,6 +38,8 @@ No es obligatorio que descargues este aplicación en tu computadora, pero te ser
 
 [**LINK DE DESCARGA**](https://slack.com/intl/es-ar/downloads/windows)
 
+Ya se descargo
+
 ---
 
 </br >
@@ -43,3 +49,5 @@ No es obligatorio que descargues este aplicación en tu computadora, pero te ser
 No es necesario que descargues esta aplicación para utilizar GitHub. Simplemente puedes utilizar la versión web. Pero si quieres acelerar los procesos te dejamos el link de desacarga!
 
 [**LINK DE DESCARGA**](https://desktop.github.com/)
+
+Ya se descargo

@@ -37,14 +37,14 @@ Una vez tengas creado tu archivo, sea manualmente o utilizando atajos, escribe l
 ```html
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
-   </head>
-   <body>
-      <!-- Contenido de la página va aquí-->
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primer Sitio Web</title>
+  </head>
+  <body>
+    <!-- Contenido de la página va aquí-->
+  </body>
 </html>
 ```
 
@@ -56,16 +56,16 @@ Una vez tengas creado tu archivo, sea manualmente o utilizando atajos, escribe l
 
 Ahora que has creado tu archivo y su estructura básica, ya es hora de comenzar a agregar contenido. Aquí te pones manos a la obra por tu cuenta, pero vamos a dejarte unos TIPs para continuar:
 
--  Recuerda establecer la estructura de bloques (header, main, section, footer, etc.)
--  Recuerda tomar nota y tener siempre a mano cuáles son los atributos de cada etiqueta, por ejemplo, el atributo **“src”** de la etiqueta **img**.
--  Dado que aún no vamos a agregarle estilos a nuestra página, si quieres ayudarte para demarcar secciones puedes aprovechar la etiqueta `<hr />`
--  Intenta utilizar los elementos correspondientes en cada caso:
+- Recuerda establecer la estructura de bloques (header, main, section, footer, etc.)
+- Recuerda tomar nota y tener siempre a mano cuáles son los atributos de cada etiqueta, por ejemplo, el atributo **“src”** de la etiqueta **img**.
+- Dado que aún no vamos a agregarle estilos a nuestra página, si quieres ayudarte para demarcar secciones puedes aprovechar la etiqueta `<hr />`
+- Intenta utilizar los elementos correspondientes en cada caso:
 
-   -  `<p>` para los párrafos
-   -  `<div>` para agrupar elementos
-   -  `<ul>/<ol>` para hacer listas
+  - `<p>` para los párrafos
+  - `<div>` para agrupar elementos
+  - `<ul>/<ol>` para hacer listas
 
-   Utilizar los elementos correctos luego nos ayudará al momento de dar estilos.
+  Utilizar los elementos correctos luego nos ayudará al momento de dar estilos.
 
 ---
 
@@ -99,3 +99,5 @@ git push
 ```
 
 6. Visita tu repositorio en Github para asegurarte de que los cambios se hayan subido adecuadamente.
+
+listo
