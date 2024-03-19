@@ -3,7 +3,12 @@ function invertirTexto(texto) {
   // Tu objetivo es invertir el string y devolver el string invertido.
   // Tu código:
 
-  return texto.split("").reverse().join("");
+  var resultado = "";
+
+  for (var i = texto.length - 1; i >= 0; i--) {
+    resultado += texto[i];
+  }
+  return resultado;
 }
 
 module.exports = invertirTexto;
